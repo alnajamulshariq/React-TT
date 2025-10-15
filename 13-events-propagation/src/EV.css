@@ -1,0 +1,52 @@
+/* EV.css */
+
+/* Main container for the entire section */
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f0f0; /* Light background */
+}
+
+/* Grandparent div styling */
+.g-div {
+  padding: 30px;
+  background-color: lightblue;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Parent div styling */
+.p-div {
+  padding: 20px;
+  background-color: lightgreen;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Child div (button) styling */
+.c-div {
+  padding: 10px 20px;
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Adding hover effects to make it interactive */
+.g-div:hover {
+  background-color: #80b3ff;
+}
+
+.p-div:hover {
+  background-color: #b3ff99;
+}
+
+.c-div:hover {
+  background-color: #ff3300;
+}
